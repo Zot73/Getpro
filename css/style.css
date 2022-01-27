@@ -1,0 +1,111 @@
+body {font-family: "Nunito", sans-serif;
+    margin: 0 auto;
+    height:auto;
+    text-align: center; 
+    background:#FFFFFF ; }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    .header-logo { width: auto; 
+        height: auto;
+        box-sizing: content-box;
+        margin-right: 64px;
+      }
+
+.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-image: url(../img/header-bg.svg);
+    margin-bottom: 90px;
+  }
+
+  .nav-link {width: 17%;
+    color: #06233b;
+    text-decoration: none;
+    padding: 0;
+    border-radius: 8px;
+  }
+
+  .nav-link::after { content: url(../img/fi-rr-angle-small-down.svg);
+    width: 10px; height: 10px; }
+
+    .nav-link1 {
+      color: #06233b;
+      text-decoration: none;
+    }
+
+
+.topbar {position:fixed;
+    padding: 10px;
+    background: linear-gradient(to right, #ffffff00 3%, #ffffffb4 7%, #ffffffb6 95%, #dbdbdb00 98%);
+     width: 100%;
+    height: 64px;
+    z-index: 1;
+   }
+
+   .theme-left {width: 90%;
+    margin-top: 74px;
+    text-align: left;
+    
+  }
+  
+  .theme-title {
+    font-size: 51px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#C381DB, #4E92F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 13px;
+  }
+  
+  .theme-title span {
+    font-size: 40px;
+    font-weight: 400;
+    color: #485466;
+  }
+  
+  .theme-subtitle {
+    color: #5A6980;
+    font-size: 15px;
+    margin-bottom: 59px;
+  }
+  
+  .theme-button {
+    background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .shadow {width: 22%;
+    height: 30px;
+    background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+    border-radius: 8px;
+    filter: blur(1.5rem);
+    margin-top: -19px;
+  }
+
+  .cart {width: 100%;
+     height: 443px;
+     padding: 16px;
+     border-radius: 40px;
+     background-color: rgba(187, 187, 187, 0.267);
+     justify-content: left;}
+
+  .cart_img {width: auto;
+             height: 23%;
+             padding: 10px;
+             align-self: center;
+             box-sizing: border-box;
+      }
+  
+  .cart_text {width: 100%;
+    text-align: left;
+    height: 255px;
+    padding: 70px 20px;
+    justify-content: left;}
