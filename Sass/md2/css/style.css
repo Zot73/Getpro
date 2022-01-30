@@ -1,0 +1,47 @@
+body {
+  font-family: "Gilroy", sans-serif;
+  margin: 0 auto;
+}
+
+.back {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
+.block {
+  width: 25%;
+  background: #ff00ea;
+  padding: 2%;
+  margin: 0;
+}
+
+.block1 {
+  width: 10%;
+  background: #42d3d3;
+  padding: 2%;
+  margin: 0;
+}
+
+.block2 {
+  width: 15%;
+  background: #4250d3;
+  padding: 2%;
+  margin: 0;
+}
+
+.block3 {
+  width: 20%;
+  background: #f1ce31;
+  padding: 2%;
+  margin: 0;
+}
+
+.block4 {
+  width: 30%;
+  background: #d35342;
+  padding: 2%;
+  margin: 0;
+}
