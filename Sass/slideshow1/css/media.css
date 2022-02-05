@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+
+    .div1 {
+       width: 20%;
+       height: auto;
+       overflow: hidden;
+       margin-right: 741px;
+        
+    }
+
+    .wrapper img { 
+        width: 80%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+         }
+
+    .blockover {
+        width: 100%;
+    }
+}
