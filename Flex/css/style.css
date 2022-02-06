@@ -1,0 +1,20 @@
+body {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0 auto;
+}
+
+.portfolio-section {
+    display: grid; 
+    margin: 10px; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+}
+
+.portfolio-item {
+    display: grid; 
+    min-height: 32vh; 
+    background-size: cover; 
+    background-position: center; 
+    text-align: center; 
+    align-content: center; 
+}    
